@@ -1,0 +1,43 @@
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.AppProper {
+height: 90vh;
+    margin-top: 10vh;
+}
+
+.RedButtonVisible {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 100vw;
+    background: red;
+}
+
+.RedButtonInvisible {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 100vw;
+    background: white;
+}
+
+.StartButtonVisible {
+    height: fit-content;
+}
+
+.StartButtonInvisible {
+    opacity: 0;
+}
+
+.SoundButton {
+    width: 50px;
+    height: 50px;
+}
